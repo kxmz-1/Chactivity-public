@@ -1,0 +1,393 @@
+@inproceedings{promal,
+  author    = {Liu, Changlin},
+  booktitle = {2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)},
+  title     = {ProMal: Precise Window Transition Graphs for Android via Synergy of Program Analysis and Machine Learning},
+  year      = {2021},
+  pages     = {144-146},
+  doi       = {10.1109/ICSE-Companion52605.2021.00061}
+}
+
+@inproceedings{wang_combodroid_2020,
+  address    = {New York, NY, USA},
+  series     = {{ICSE} '20},
+  title      = {{ComboDroid}: generating high-quality test inputs for {Android} apps via use case combinations},
+  isbn       = {978-1-4503-7121-6},
+  shorttitle = {{ComboDroid}},
+  url        = {https://doi.org/10.1145/3377811.3380382},
+  doi        = {10.1145/3377811.3380382},
+  abstract   = {Android apps demand high-quality test inputs, whose generation remains an open challenge. Existing techniques fall short on exploring complex app functionalities reachable only by a long, meaningful, and effective test input. Observing that such test inputs can usually be decomposed into relatively independent short use cases, this paper presents ComboDroid, a fundamentally different Android app testing framework. ComboDroid obtains use cases for manifesting a specific app functionality (either manually provided or automatically extracted), and systematically enumerates the combinations of use cases, yielding high-quality test inputs. The evaluation results of ComboDroid on real-world apps are encouraging. Our fully automatic variant outperformed the best existing technique APE by covering 4.6\% more code (APE only outperformed Monkey by 2.1\%), and revealed four previously unknown bugs in extensively tested subjects. Our semi-automatic variant boosts the manual use cases obtained with little manual labor, achieving a comparable coverage (only 3.2\% less) with a white-box human testing expert.},
+  urldate    = {2023-07-20},
+  booktitle  = {Proceedings of the {ACM}/{IEEE} 42nd {International} {Conference} on {Software} {Engineering}},
+  publisher  = {Association for Computing Machinery},
+  author     = {Wang, Jue and Jiang, Yanyan and Xu, Chang and Cao, Chun and Ma, Xiaoxing and Lu, Jian},
+  month      = oct,
+  year       = {2020},
+  keywords   = {mobile apps, software testing},
+  pages      = {469--480}
+}
+
+@inproceedings{pan_reinforcement_2020,
+  address   = {New York, NY, USA},
+  series    = {{ISSTA} 2020},
+  title     = {Reinforcement learning based curiosity-driven testing of {Android} applications},
+  isbn      = {978-1-4503-8008-9},
+  url       = {https://doi.org/10.1145/3395363.3397354},
+  doi       = {10.1145/3395363.3397354},
+  abstract  = {Mobile applications play an important role in our daily life, while it still remains a challenge to guarantee their correctness. Model-based and systematic approaches have been applied to Android GUI testing. However, they do not show significant advantages over random approaches because of limitations such as imprecise models and poor scalability. In this paper, we propose Q-testing, a reinforcement learning based approach which benefits from both random and model-based approaches to automated testing of Android applications. Q-testing explores the Android apps with a curiosity-driven strategy that utilizes a memory set to record part of previously visited states and guides the testing towards unfamiliar functionalities. A state comparison module, which is a neural network trained by plenty of collected samples, is novelly employed to divide different states at the granularity of functional scenarios. It can determine the reinforcement learning reward in Q-testing and help the curiosity-driven strategy explore different functionalities efficiently. We conduct experiments on 50 open-source applications where Q-testing outperforms the state-of-the-art and state-of-practice Android GUI testing tools in terms of code coverage and fault detection. So far, 22 of our reported faults have been confirmed, among which 7 have been fixed.},
+  urldate   = {2023-07-20},
+  booktitle = {Proceedings of the 29th {ACM} {SIGSOFT} {International} {Symposium} on {Software} {Testing} and {Analysis}},
+  publisher = {Association for Computing Machinery},
+  author    = {Pan, Minxue and Huang, An and Wang, Guoxin and Zhang, Tian and Li, Xuandong},
+  month     = jul,
+  year      = {2020},
+  keywords  = {Android app testing, functional scenario division, reinforcement learning},
+  pages     = {153--164}
+}
+
+@inproceedings{mao_sapienz_2016,
+  address    = {New York, NY, USA},
+  series     = {{ISSTA} 2016},
+  title      = {Sapienz: multi-objective automated testing for {Android} applications},
+  isbn       = {978-1-4503-4390-9},
+  shorttitle = {Sapienz},
+  url        = {https://doi.org/10.1145/2931037.2931054},
+  doi        = {10.1145/2931037.2931054},
+  abstract   = {We introduce Sapienz, an approach to Android testing that uses multi-objective search-based testing to automatically explore and optimise test sequences, minimising length, while simultaneously maximising coverage and fault revelation. Sapienz combines random fuzzing, systematic and search-based exploration, exploiting seeding and multi-level instrumentation. Sapienz significantly outperforms (with large effect size) both the state-of-the-art technique Dynodroid and the widely-used tool, Android Monkey, in 7/10 experiments for coverage, 7/10 for fault detection and 10/10 for fault-revealing sequence length. When applied to the top 1,000 Google Play apps, Sapienz found 558 unique, previously unknown crashes. So far we have managed to make contact with the developers of 27 crashing apps. Of these, 14 have confirmed that the crashes are caused by real faults. Of those 14, six already have developer-confirmed fixes.},
+  urldate    = {2023-07-20},
+  booktitle  = {Proceedings of the 25th {International} {Symposium} on {Software} {Testing} and {Analysis}},
+  publisher  = {Association for Computing Machinery},
+  author     = {Mao, Ke and Harman, Mark and Jia, Yue},
+  month      = jul,
+  year       = {2016},
+  keywords   = {Android, Search-based software testing, Test generation},
+  pages      = {94--105},
+  file       = {已提交版本:C\:\\Users\\admin\\Zotero\\storage\\BX8R5RC7\\Mao 等 - 2016 - Sapienz multi-objective automated testing for And.pdf:application/pdf}
+}
+
+@inproceedings{dong_time-travel_2020,
+  title     = {Time-travel {Testing} of {Android} {Apps}},
+  abstract  = {Android testing tools generate sequences of input events to exercise the state space of the app-under-test. Existing search-based techniques systematically evolve a population of event sequences so as to achieve certain objectives such as maximal code coverage. The hope is that the mutation of fit event sequences leads to the generation of even fitter sequences. However, the evolution of event sequences may be ineffective. Our key insight is that pertinent app states which contributed to the original sequence's fitness may not be reached by a mutated event sequence. The original path through the state space is truncated at the point of mutation. In this paper, we propose instead to evolve a population of states which can be captured upon discovery and resumed when needed. The hope is that generating events on a fit program state leads to the transition to even fitter states. For instance, we can quickly deprioritize testing the main screen state which is visited by most event sequences, and instead focus our limited resources on testing more interesting states that are otherwise difficult to reach. We call our approach time-travel testing because of this ability to travel back to any state that has been observed in the past. We implemented time-travel testing into TimeMachine, a time-travel enabled version of the successful, automated Android testing tool Monkey. In our experiments on a large number of open- and closed source Android apps, TimeMachine outperforms the state-of-the-art search-based/model-based Android testing tools Sapienz and Stoat, both in terms of coverage achieved and crashes found. We call our approach time-travel testing because of this ability to travel back to any state that has been observed in the past. We implemented time-travel testing into TimeMachine, a time-travel enabled version of the successful, automated Android testing tool Monkey. In our experiments on a large number of open- and closed source Android apps, TimeMachine outperforms the state-of-the-art search-based/model-based Android testing tools Sapienz and Stoat, both in terms of coverage achieved and crashes found.},
+  booktitle = {2020 {IEEE}/{ACM} 42nd {International} {Conference} on {Software} {Engineering} ({ICSE})},
+  author    = {Dong, Zhen and Böhme, Marcel and Cojocaru, Lucia and Roychoudhury, Abhik},
+  month     = oct,
+  year      = {2020},
+  note      = {ISSN: 1558-1225},
+  keywords  = {Accidents, Android testing, Directed fuzzing, Sociology, Space exploration, State based, Statistics, Testing, Time travel testing, Tools, Virtualization},
+  pages     = {481--492},
+  file      = {IEEE Xplore Abstract Record:C\:\\Users\\admin\\Zotero\\storage\\GVDT4VLD\\9284058.html:text/html}
+}
+
+@inproceedings{baek_automated_2016,
+  address   = {New York, NY, USA},
+  series    = {{ASE} '16},
+  title     = {Automated model-based {Android} {GUI} testing using multi-level {GUI} comparison criteria},
+  isbn      = {978-1-4503-3845-5},
+  url       = {https://doi.org/10.1145/2970276.2970313},
+  doi       = {10.1145/2970276.2970313},
+  abstract  = {Automated Graphical User Interface (GUI) testing is one of the most widely used techniques to detect faults in mobile applications (apps) and to test functionality and usability. GUI testing exercises behaviors of an application under test (AUT) by executing events on GUIs and checking whether the app behaves correctly. In particular, because Android leads in market share of mobile OS platforms, a lot of research on automated Android GUI testing techniques has been performed. Among various techniques, we focus on model-based Android GUI testing that utilizes a GUI model for systematic test generation and effective debugging support. Since test inputs are generated based on the underlying model, accurate GUI modeling of an AUT is the most crucial factor in order to generate effective test inputs. However, most modern Android apps contain a number of dynamically constructed GUIs that make accurate behavior modeling more challenging. To address this problem, we propose a set of multi-level GUI Comparison Criteria (GUICC) that provides the selection of multiple abstraction levels for GUI model generation. By using multilevel GUICC, we conducted empirical experiments to identify the influence of GUICC on testing effectiveness. Results show that our approach, which performs model-based testing with multi-level GUICC, achieved higher effectiveness than activity-based GUI model generation. We also found that multi-level GUICC can alleviate the inherent state explosion problems of existing a single-level GUICC for behavior modeling of real-world Android apps by flexibly manipulating GUICC.},
+  urldate   = {2023-07-20},
+  booktitle = {Proceedings of the 31st {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
+  publisher = {Association for Computing Machinery},
+  author    = {Baek, Young-Min and Bae, Doo-Hwan},
+  month     = aug,
+  year      = {2016},
+  keywords  = {Android application testing, GUI comparison criteria, GUI model generation, GUI testing, Model-based test input generation},
+  pages     = {238--249}
+}
+
+@inproceedings{yazdanibanafshedaragh_deep_2022,
+  address    = {Melbourne, Australia},
+  series     = {{ASE} '21},
+  title      = {Deep {GUI}: black-box {GUI} input generation with deep learning},
+  isbn       = {978-1-66540-337-5},
+  shorttitle = {Deep {GUI}},
+  url        = {https://doi.org/10.1109/ASE51524.2021.9678778},
+  doi        = {10.1109/ASE51524.2021.9678778},
+  abstract   = {Despite the proliferation of Android testing tools, Google Monkey has remained the de facto standard for practitioners. The popularity of Google Monkey is largely due to the fact that it is a black-box testing tool, making it widely applicable to all types of Android apps, regardless of their underlying implementation details. An important drawback of Google Monkey, however, is the fact that it uses the most naive form of test input generation technique, i.e., random testing. In this work, we present Deep GUI, an approach that aims to complement the benefits of black-box testing with a more intelligent form of GUI input generation. Given only screenshots of apps, Deep GUI first employs deep learning to construct a model of valid GUI interactions. It then uses this model to generate effective inputs for an app under test without the need to probe its implementation details. Moreover, since the data collection, training, and inference processes are performed independent of the platform, the model inferred by Deep GUI has application for testing apps in other platforms as well. We implemented a prototype of Deep GUI in a tool called Monkey++ by extending Google Monkey and evaluated it for its ability to crawl Android apps. We found that Monkey++ achieves significant improvements over Google Monkey in cases where an app's UI is complex, requiring sophisticated inputs. Furthermore, our experimental results demonstrate the model inferred using Deep GUI can be reused for effective GUI input generation across platforms without the need for retraining.},
+  urldate    = {2023-07-20},
+  booktitle  = {Proceedings of the 36th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
+  publisher  = {IEEE Press},
+  author     = {YazdaniBanafsheDaragh, Faraz and Malek, Sam},
+  month      = jun,
+  year       = {2022},
+  pages      = {905--916}
+}
+
+@article{romdhana_deep_2022,
+  title    = {Deep {Reinforcement} {Learning} for {Black}-box {Testing} of {Android} {Apps}},
+  volume   = {31},
+  issn     = {1049-331X},
+  url      = {https://dl.acm.org/doi/10.1145/3502868},
+  doi      = {10.1145/3502868},
+  abstract = {The state space of Android apps is huge, and its thorough exploration during testing remains a significant challenge. The best exploration strategy is highly dependent on the features of the app under test. Reinforcement Learning (RL) is a machine learning technique that learns the optimal strategy to solve a task by trial and error, guided by positive or negative reward, rather than explicit supervision. Deep RL is a recent extension of RL that takes advantage of the learning capabilities of neural networks. Such capabilities make Deep RL suitable for complex exploration spaces such as one of Android apps. However, state-of-the-art, publicly available tools only support basic, Tabular RL. We have developed ARES, a Deep RL approach for black-box testing of Android apps. Experimental results show that it achieves higher coverage and fault revelation than the baselines, including state-of-the-art tools, such as TimeMachine and Q-Testing. We also investigated the reasons behind such performance qualitatively, and we have identified the key features of Android apps that make Deep RL particularly effective on them to be the presence of chained and blocking activities. Moreover, we have developed FATE to fine-tune the hyperparameters of Deep RL algorithms on simulated apps, since it is computationally expensive to carry it out on real apps.},
+  number   = {4},
+  urldate  = {2023-07-21},
+  journal  = {ACM Transactions on Software Engineering and Methodology},
+  author   = {Romdhana, Andrea and Merlo, Alessio and Ceccato, Mariano and Tonella, Paolo},
+  month    = jul,
+  year     = {2022},
+  keywords = {Android testing, Deep reinforcement learning},
+  pages    = {65:1--65:29},
+  file     = {Full Text PDF:C\:\\Users\\admin\\Zotero\\storage\\R5SL3KYJ\\Romdhana 等 - 2022 - Deep Reinforcement Learning for Black-box Testing .pdf:application/pdf}
+}
+
+@inproceedings{su_guided_2017,
+  address   = {New York, NY, USA},
+  series    = {{ESEC}/{FSE} 2017},
+  title     = {Guided, stochastic model-based {GUI} testing of {Android} apps},
+  isbn      = {978-1-4503-5105-8},
+  url       = {https://doi.org/10.1145/3106237.3106298},
+  doi       = {10.1145/3106237.3106298},
+  abstract  = {Mobile apps are ubiquitous, operate in complex environments and are developed under the time-to-market pressure. Ensuring their correctness and reliability thus becomes an important challenge. This paper introduces Stoat, a novel guided approach to perform stochastic model-based testing on Android apps. Stoat operates in two phases: (1) Given an app as input, it uses dynamic analysis enhanced by a weighted UI exploration strategy and static analysis to reverse engineer a stochastic model of the app's GUI interactions; and (2) it adapts Gibbs sampling to iteratively mutate/refine the stochastic model and guides test generation from the mutated models toward achieving high code and model coverage and exhibiting diverse sequences. During testing, system-level events are randomly injected to further enhance the testing effectiveness. Stoat was evaluated on 93 open-source apps. The results show (1) the models produced by Stoat cover 17{\textasciitilde}31\% more code than those by existing modeling tools; (2) Stoat detects 3X more unique crashes than two state-of-the-art testing tools, Monkey and Sapienz. Furthermore, Stoat tested 1661 most popular Google Play apps, and detected 2110 previously unknown and unique crashes. So far, 43 developers have responded that they are investigating our reports. 20 of reported crashes have been confirmed, and 8 already fixed.},
+  urldate   = {2023-07-20},
+  booktitle = {Proceedings of the 2017 11th {Joint} {Meeting} on {Foundations} of {Software} {Engineering}},
+  publisher = {Association for Computing Machinery},
+  author    = {Su, Ting and Meng, Guozhu and Chen, Yuting and Wu, Ke and Yang, Weiming and Yao, Yao and Pu, Geguang and Liu, Yang and Su, Zhendong},
+  month     = aug,
+  year      = {2017},
+  keywords  = {GUI Testing, Mobile Apps, Model-based Testing},
+  pages     = {245--256}
+}
+
+@inproceedings{gu_practical_2019,
+  address   = {Montreal, Quebec, Canada},
+  series    = {{ICSE} '19},
+  title     = {Practical {GUI} testing of {Android} applications via model abstraction and refinement},
+  url       = {https://doi.org/10.1109/ICSE.2019.00042},
+  doi       = {10.1109/ICSE.2019.00042},
+  abstract  = {This paper introduces a new, fully automated model-based approach for effective testing of Android apps. Different from existing model-based approaches that guide testing with a static GUI model (i.e., the model does not evolve its abstraction during testing, and is thus often imprecise), our approach dynamically optimizes the model by leveraging the runtime information during testing. This capability of model evolution significantly improves model precision, and thus dramatically enhances the testing effectiveness compared to existing approaches, which our evaluation confirms. We have realized our technique in a practical tool, Ape. On 15 large, widely-used apps from the Google Play Store, Ape outperforms the state-of-the-art Android GUI testing tools in terms of both testing coverage and the number of detected unique crashes. To further demonstrate Ape's effectiveness and usability, we conduct another evaluation of Ape on 1,316 popular apps, where it found 537 unique crashes. Out of the 38 reported crashes, 13 have been fixed and 5 have been confirmed.},
+  urldate   = {2023-07-20},
+  booktitle = {Proceedings of the 41st {International} {Conference} on {Software} {Engineering}},
+  publisher = {IEEE Press},
+  author    = {Gu, Tianxiao and Sun, Chengnian and Ma, Xiaoxing and Cao, Chun and Xu, Chang and Yao, Yuan and Zhang, Qirun and Lu, Jian and Su, Zhendong},
+  month     = may,
+  year      = {2019},
+  keywords  = {CEGAR, GUI testing, mobile app testing},
+  pages     = {269--280}
+}
+
+@inproceedings{zhao_fruiter_2020,
+  address    = {New York, NY, USA},
+  series     = {{ESEC}/{FSE} 2020},
+  title      = {{FrUITeR}: a framework for evaluating {UI} test reuse},
+  isbn       = {978-1-4503-7043-1},
+  shorttitle = {{FrUITeR}},
+  url        = {https://doi.org/10.1145/3368089.3409708},
+  doi        = {10.1145/3368089.3409708},
+  abstract   = {UI testing is tedious and time-consuming due to the manual effort required. Recent research has explored opportunities for reusing existing UI tests from an app to automatically generate new tests for other apps. However, the evaluation of such techniques currently remains manual, unscalable, and unreproducible, which can waste effort and impede progress in this emerging area. We introduce FrUITeR, a framework that automatically evaluates UI test reuse in a reproducible way. We apply FrUITeR to existing test-reuse techniques on a uniform benchmark we established, resulting in 11,917 test reuse cases from 20 apps. We report several key findings aimed at improving UI test reuse that are missed by existing work.},
+  urldate    = {2023-07-20},
+  booktitle  = {Proceedings of the 28th {ACM} {Joint} {Meeting} on {European} {Software} {Engineering} {Conference} and {Symposium} on the {Foundations} of {Software} {Engineering}},
+  publisher  = {Association for Computing Machinery},
+  author     = {Zhao, Yixue and Chen, Justin and Sejfia, Adriana and Schmitt Laser, Marcelo and Zhang, Jie and Sarro, Federica and Harman, Mark and Medvidovic, Nenad},
+  month      = nov,
+  year       = {2020},
+  keywords   = {Mobile Application, Open Science, Software Testing, Test Reuse},
+  pages      = {1190--1201},
+  file       = {全文:C\:\\Users\\admin\\Zotero\\storage\\INCBMGUE\\Zhao 等 - 2020 - FrUITeR a framework for evaluating UI test reuse.pdf:application/pdf}
+}
+
+@inproceedings{mariani_semantic_2021,
+  address    = {New York, NY, USA},
+  series     = {{ISSTA} 2021},
+  title      = {Semantic matching of {GUI} events for test reuse: are we there yet?},
+  isbn       = {978-1-4503-8459-9},
+  shorttitle = {Semantic matching of {GUI} events for test reuse},
+  url        = {https://doi.org/10.1145/3460319.3464827},
+  doi        = {10.1145/3460319.3464827},
+  abstract   = {GUI testing is an important but expensive activity. Recently, research on test reuse approaches for Android applications produced interesting results. Test reuse approaches automatically migrate human-designed GUI tests from a source app to a target app that shares similar functionalities. They achieve this by exploiting semantic similarity among textual information of GUI widgets. Semantic matching of GUI events plays a crucial role in these approaches. In this paper, we present the first empirical study on semantic matching of GUI events. Our study involves 253 configurations of the semantic matching, 337 unique queries, and 8,099 distinct GUI events. We report several key findings that indicate how to improve semantic matching of test reuse approaches, propose SemFinder a novel semantic matching algorithm that outperforms existing solutions, and identify several interesting research directions.},
+  urldate    = {2023-07-20},
+  booktitle  = {Proceedings of the 30th {ACM} {SIGSOFT} {International} {Symposium} on {Software} {Testing} and {Analysis}},
+  publisher  = {Association for Computing Machinery},
+  author     = {Mariani, Leonardo and Mohebbi, Ali and Pezzè, Mauro and Terragni, Valerio},
+  month      = jul,
+  year       = {2021},
+  keywords   = {Android applications, GUI testing, mobile testing, NLP, test reuse, word embedding},
+  pages      = {177--190}
+}
+
+@misc{li_mapping_2020,
+  title     = {Mapping {Natural} {Language} {Instructions} to {Mobile} {UI} {Action} {Sequences}},
+  url       = {http://arxiv.org/abs/2005.03776},
+  doi       = {10.48550/arXiv.2005.03776},
+  abstract  = {We present a new problem: grounding natural language instructions to mobile user interface actions, and create three new datasets for it. For full task evaluation, we create PIXELHELP, a corpus that pairs English instructions with actions performed by people on a mobile UI emulator. To scale training, we decouple the language and action data by (a) annotating action phrase spans in HowTo instructions and (b) synthesizing grounded descriptions of actions for mobile user interfaces. We use a Transformer to extract action phrase tuples from long-range natural language instructions. A grounding Transformer then contextually represents UI objects using both their content and screen position and connects them to object descriptions. Given a starting screen and instruction, our model achieves 70.59\% accuracy on predicting complete ground-truth action sequences in PIXELHELP.},
+  urldate   = {2023-07-21},
+  publisher = {arXiv},
+  author    = {Li, Yang and He, Jiacong and Zhou, Xin and Zhang, Yuan and Baldridge, Jason},
+  month     = jun,
+  year      = {2020},
+  note      = {arXiv:2005.03776 [cs]},
+  keywords  = {Computer Science - Computation and Language, Computer Science - Machine Learning},
+  annote    = {Comment: Annual Conference of the Association for Computational Linguistics (ACL 2020)},
+  file      = {arXiv Fulltext PDF:C\:\\Users\\admin\\Zotero\\storage\\IVNK4PYS\\Li 等 - 2020 - Mapping Natural Language Instructions to Mobile UI.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\admin\\Zotero\\storage\\BPKW2V32\\2005.html:text/html}
+}
+
+@inproceedings{li_screen2vec_2021,
+  address    = {New York, NY, USA},
+  series     = {{CHI} '21},
+  title      = {{Screen2Vec}: {Semantic} {Embedding} of {GUI} {Screens} and {GUI} {Components}},
+  isbn       = {978-1-4503-8096-6},
+  shorttitle = {{Screen2Vec}},
+  url        = {https://dl.acm.org/doi/10.1145/3411764.3445049},
+  doi        = {10.1145/3411764.3445049},
+  abstract   = {Representing the semantics of GUI screens and components is crucial to data-driven computational methods for modeling user-GUI interactions and mining GUI designs. Existing GUI semantic representations are limited to encoding either the textual content, the visual design and layout patterns, or the app contexts. Many representation techniques also require significant manual data annotation efforts. This paper presents Screen2Vec, a new self-supervised technique for generating representations in embedding vectors of GUI screens and components that encode all of the above GUI features without requiring manual annotation using the context of user interaction traces. Screen2Vec is inspired by the word embedding method Word2Vec, but uses a new two-layer pipeline informed by the structure of GUIs and interaction traces and incorporates screen- and app-specific metadata. Through several sample downstream tasks, we demonstrate Screen2Vec’s key useful properties: representing between-screen similarity through nearest neighbors, composability, and capability to represent user tasks.},
+  urldate    = {2023-07-20},
+  booktitle  = {Proceedings of the 2021 {CHI} {Conference} on {Human} {Factors} in {Computing} {Systems}},
+  publisher  = {Association for Computing Machinery},
+  author     = {Li, Toby Jia-Jun and Popowski, Lindsay and Mitchell, Tom and Myers, Brad A},
+  month      = may,
+  year       = {2021},
+  keywords   = {GUI embedding, interaction mining, screen semantics},
+  pages      = {1--15},
+  file       = {Full Text PDF:C\:\\Users\\admin\\Zotero\\storage\\RDCGCTME\\Li 等 - 2021 - Screen2Vec Semantic Embedding of GUI Screens and .pdf:application/pdf}
+}
+
+@inproceedings{behrang_test_2020,
+  address   = {San Diego, California},
+  series    = {{ASE} '19},
+  title     = {Test migration between mobile apps with similar functionality},
+  isbn      = {978-1-72812-508-4},
+  url       = {https://doi.org/10.1109/ASE.2019.00016},
+  doi       = {10.1109/ASE.2019.00016},
+  abstract  = {The use of mobile apps is increasingly widespread, and much effort is put into testing these apps to make sure they behave as intended. To reduce this effort, and thus the overall cost of mobile app testing, we propose AppTestMigrator, a technique for migrating test cases between apps in the same category (e.g., banking apps). The intuition behind AppTestMigrator is that many apps share similarities in their functionality, and these similarities often result in conceptually similar user interfaces (through which that functionality is accessed). AppTestMigrator leverages these commonalities between user interfaces to migrate existing tests written for an app to another similar app. Specifically, given (1) a test case for an app (source app) and (2) a second app (target app), AppTestMigrator attempts to automatically transform the sequence of events and oracles in the test for the source app to events and oracles for the target app. We implemented AppTestMigrator for Android mobile apps and evaluated it on a set of randomly selected apps from the Google play store in four different categories. our initial results are promising, support our intuition that test migration is possible, and motivate further research in this direction.},
+  urldate   = {2023-07-20},
+  booktitle = {Proceedings of the 34th {IEEE}/{ACM} {International} {Conference} on {Automated} {Software} {Engineering}},
+  publisher = {IEEE Press},
+  author    = {Behrang, Farnaz and Orso, Alessandro},
+  month     = feb,
+  year      = {2020},
+  keywords  = {gui testing, mobile apps, test migration},
+  pages     = {54--65}
+}
+
+@article{lin_route_2023,
+  title      = {Route: {Roads} {Not} {Taken} in {UI} {Testing}},
+  volume     = {32},
+  issn       = {1049-331X},
+  shorttitle = {Route},
+  url        = {https://dl.acm.org/doi/10.1145/3571851},
+  doi        = {10.1145/3571851},
+  abstract   = {Core features (functionalities) of an app can often be accessed and invoked in several ways, i.e., through alternative sequences of user-interface (UI) interactions. Given the manual effort of writing tests, developers often only consider the typical way of invoking features when creating the tests (i.e., the “sunny day scenario”). However, the alternative ways of invoking a feature are as likely to be faulty. These faults would go undetected without proper tests. To reduce the manual effort of creating UI tests and help developers more thoroughly examine the features of apps, we present Route, an automated tool for feature-based UI test augmentation for Android apps. Route first takes a UI test and the app under test as input. It then applies novel heuristics to find additional high-quality UI tests, consisting of both inputs and assertions, that verify the same feature as the original test in alternative ways. Application of Route on several dozen tests for popular apps on Google Play shows that for 96\% of the existing tests, Route was able to generate at least one alternative test. Moreover, the fault detection effectiveness of augmented test suites in our experiments showed substantial improvements of up to 39\% over the original test suites.},
+  number     = {3},
+  urldate    = {2023-07-21},
+  journal    = {ACM Transactions on Software Engineering and Methodology},
+  author     = {Lin, Jun-Wei and Salehnamadi, Navid and Malek, Sam},
+  month      = apr,
+  year       = {2023},
+  keywords   = {GUI test augmentation, mobile testing, test amplification, test reuse},
+  pages      = {71:1--71:25},
+  file       = {Full Text PDF:C\:\\Users\\admin\\Zotero\\storage\\RGWDVWN5\\Lin 等 - 2023 - Route Roads Not Taken in UI Testing.pdf:application/pdf}
+}
+
+@article{ngo_automated_2022,
+  title    = {Automated, {Cost}-effective, and {Update}-driven {App} {Testing}},
+  volume   = {31},
+  issn     = {1049-331X},
+  url      = {https://dl.acm.org/doi/10.1145/3502297},
+  doi      = {10.1145/3502297},
+  abstract = {Apps’ pervasive role in our society led to the definition of test automation approaches to ensure their dependability. However, state-of-the-art approaches tend to generate large numbers of test inputs and are unlikely to achieve more than 50\% method coverage. In this article, we propose a strategy to achieve significantly higher coverage of the code affected by updates with a much smaller number of test inputs, thus alleviating the test oracle problem. More specifically, we present ATUA, a model-based approach that synthesizes App models with static analysis, integrates a dynamically refined state abstraction function and combines complementary testing strategies, including (1) coverage of the model structure, (2) coverage of the App code, (3) random exploration, and (4) coverage of dependencies identified through information retrieval. Its model-based strategy enables ATUA to generate a small set of inputs that exercise only the code affected by the updates. In turn, this makes common test oracle solutions more cost-effective, as they tend to involve human effort. A large empirical evaluation, conducted with 72 App versions belonging to nine popular Android Apps, has shown that ATUA is more effective and less effort-intensive than state-of-the-art approaches when testing App updates.},
+  number   = {4},
+  urldate  = {2023-07-21},
+  journal  = {ACM Transactions on Software Engineering and Methodology},
+  author   = {Ngo, Chanh Duc and Pastore, Fabrizio and Briand, Lionel},
+  month    = jul,
+  year     = {2022},
+  keywords = {Android testing, information retrieval, model-based testing, regression testing, upgrade testing},
+  pages    = {61:1--61:51},
+  file     = {Full Text PDF:C\:\\Users\\admin\\Zotero\\storage\\MU8MBICT\\Ngo 等 - 2022 - Automated, Cost-effective, and Update-driven App T.pdf:application/pdf}
+}
+
+
+@inproceedings{mikolov_distributed_2013,
+  title     = {Distributed Representations of Words and Phrases and their Compositionality},
+  volume    = {26},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html},
+  abstract  = {The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships.  In this paper we present several improvements that make the Skip-gram model more expressive and enable it to learn higher quality vectors more rapidly.  We show that by subsampling frequent words we obtain significant speedup,  and also learn higher quality representations as measured by our tasks. We also introduce Negative Sampling, a simplified variant of Noise Contrastive Estimation ({NCE}) that learns more accurate vectors for frequent words compared to the hierarchical softmax.   An inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases.  For example, the meanings of Canada'' and "Air'' cannot be easily combined to obtain "Air Canada''.  Motivated by this example, we present a simple and efficient method for finding phrases, and show that their vector representations can be accurately learned by the Skip-gram model. "},
+  booktitle = {Advances in Neural Information Processing Systems},
+  publisher = {Curran Associates, Inc.},
+  author    = {Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  urldate   = {2023-07-21},
+  date      = {2013},
+  file      = {Full Text PDF:C\:\\Users\\admin\\Zotero\\storage\\26T4RLXD\\Mikolov 等 - 2013 - Distributed Representations of Words and Phrases a.pdf:application/pdf}
+}
+
+@misc{vaswani2017attention,
+  title         = {Attention Is All You Need},
+  author        = {Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
+  year          = {2017},
+  eprint        = {1706.03762},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL}
+}
+
+@misc{brown2020language,
+  title         = {Language Models are Few-Shot Learners},
+  author        = {Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei},
+  year          = {2020},
+  eprint        = {2005.14165},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL}
+}
+
+@misc{ouyang2022training,
+  title         = {Training language models to follow instructions with human feedback},
+  author        = {Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and John Schulman and Jacob Hilton and Fraser Kelton and Luke Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Christiano and Jan Leike and Ryan Lowe},
+  year          = {2022},
+  eprint        = {2203.02155},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL}
+}
+
+@misc{androidUIApplicationExerciser,
+  author = {},
+  title  = {{U}{I}/{A}pplication {E}xerciser {M}onkey},
+  url    = {https://developer.android.com/studio/test/other-testing-tools/monkey},
+  note   = {[Accessed 20-Jul-2023]}
+}
+
+@misc{appium,
+  author   = {},
+  title    = {Appium},
+  url      = {https://github.com/appium/appium},
+  note     = {[Accessed 21-Jul-2023]},
+  abstract = {Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol}
+}
+
+@article{wei2022chain,
+  title   = {Chain-of-thought prompting elicits reasoning in large language models},
+  author  = {Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {35},
+  pages   = {24824--24837},
+  year    = {2022}
+}
+
+@misc{android_layouts_in_views,
+  author = {},
+  title  = {Layouts in Views},
+  url    = {https://developer.android.com/develop/ui/views/layout/declaring-layout}
+}
+
+
+
+@misc{function_call_annonucement,
+  author = {},
+  title  = {Function calling and other API updates},
+  url    = {https://openai.com/blog/function-calling-and-other-api-updates}
+}
+
+@article{testingliteraturereview,
+author = {Arnatovich, Yauhen and Wang, Lipo},
+year = {2018},
+month = {12},
+pages = {},
+title = {A Systematic Literature Review of Automated Techniques for Functional GUI Testing of Mobile Applications}
+}
+
+@misc{zhao2023survey,
+      title={A Survey of Large Language Models},
+      author={Wayne Xin Zhao and Kun Zhou and Junyi Li and Tianyi Tang and Xiaolei Wang and Yupeng Hou and Yingqian Min and Beichen Zhang and Junjie Zhang and Zican Dong and Yifan Du and Chen Yang and Yushuo Chen and Zhipeng Chen and Jinhao Jiang and Ruiyang Ren and Yifan Li and Xinyu Tang and Zikang Liu and Peiyu Liu and Jian-Yun Nie and Ji-Rong Wen},
+      year={2023},
+      eprint={2303.18223},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

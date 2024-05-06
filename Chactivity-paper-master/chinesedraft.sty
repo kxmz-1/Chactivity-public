@@ -1,0 +1,19 @@
+% mybox.sty
+\ProvidesPackage{chinesedraft}
+
+\RequirePackage{mdframed}
+\RequirePackage{CJKutf8}
+\RequirePackage{xcolor}
+
+% Define an environment for the box
+\newenvironment{chinese-draft}{%
+\begin{CJK*}{UTF8}{gbsn}
+  \begin{mdframed}[
+    frametitle={\small \color{red} \underline{以下内容待翻译}},
+    backgroundcolor=black!5,rightline=false,leftline=false
+    ]%
+}{%
+  \end{mdframed}
+  \end{CJK*}
+  %
+}

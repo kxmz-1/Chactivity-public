@@ -1,0 +1,23 @@
+name: Build LaTeX
+
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: school
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build LaTeX
+        shell: cmd
+        run: |
+             latexmk -file-line-error -halt-on-error -interaction=nonstopmode -pdf main.tex
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: main.pdf
+          path: main.pdf

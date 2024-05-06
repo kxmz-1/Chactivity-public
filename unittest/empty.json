@@ -1,0 +1,11 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": []
+    },
+    "apk": "*APK_DIR*/",
+    "package_name": "",
+    "known_activities": {},
+    "device_type": "android",
+    "capabilities_mixin": {}
+}

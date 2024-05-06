@@ -1,0 +1,11 @@
+The Activity {{ activity_name }} of Application {{ package_name }} will show one of the following contents:
+
+```
+{% for status_description in status_descriptions %}
+{{ loop.index }}. {{ status_description }}
+{% endfor %}
+```
+
+Based on the above descriptions, please describe the purpose of Activity {{ activity_name }} to a normal user briefly in less than 20 words.
+Don't include too much information or text content, just describe the purpose of the Activity.
+Begin your reply with `{{ prefix }}` and then give your description.

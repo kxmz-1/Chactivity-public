@@ -1,0 +1,26 @@
+Currently, we are at the activity: `{{ current_activity }}`.
+Our goal is to analyze, locate and enter the activity: `{{ goal_activity }}`, which is {{ goal_activity_description }}.
+
+The current state of onscreen UI is as follows.
+Every verb(delim by space) refers to an action available on this element.
+`child texts` refers to texts associated with this element.
+If an element is marked as `operated before`, you may not need to perform action on it again.
+Now begins the UI state:
+```
+{{ state }}
+```
+UI state ends.
+
+Now, do the following:
+1. Analyze the connection between the goal and the elements on current page.
+2. Select a element that you think is the most related with the goal, remember its index number named `element_index`.
+3. Perform a command using respective function call to the element you selected in order to achieve our goal. If any extra arguments is required, deduce it by yourself.
+There MUST be a best element and bset command to choose to achieve our goal.{% if show_back %}
+If current history indicates that current path is different from the best path, you may call function `back` to go back to the previous page.{% endif %}{% if show_login_hint %}
+If the UI state indicates that you need to fill in password and username, you may call function `input` to manually input them.{% endif %}
+{% if show_badgoal %}
+{% raw %}
+Additionally, here are some options for you, which doesn't apply the format rule below:
+INDEX-BADGOAL: If you found everything is absolutely not related with our goal based on your history, you can use this to tell us that you think the goal is not reachable. DON'T USE THIS WHEN YOU HAVE NOT FULLY EXPLORED.
+{% endraw %}
+{% endif %}

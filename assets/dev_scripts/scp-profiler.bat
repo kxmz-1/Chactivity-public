@@ -1,0 +1,1 @@
+scp 127.0.0.1:"E:\profiler\*" profiler

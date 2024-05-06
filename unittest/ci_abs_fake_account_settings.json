@@ -1,0 +1,14 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "net.p4p.arms.main.AccountSettingsActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/Abs.apk",
+    "package_name": "net.p4p.absen",
+    "known_activities": {},
+    "device_type": "android"
+}

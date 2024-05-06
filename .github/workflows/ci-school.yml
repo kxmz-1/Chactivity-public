@@ -1,0 +1,52 @@
+name: Run Test On Windows Server
+on:
+  push:
+    branches: [dev]
+    paths-ignore:
+      - ".github/ISSUE_TEMPLATE/**"
+      - "**.md"
+  workflow_dispatch:
+
+env:
+  APK_DIR: 'E:\WSL\apks'
+#  PIPENV_PYPI_MIRROR: "https://pypi.tuna.tsinghua.edu.cn/simple"
+#  POETRY_PYPI_MIRROR_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
+  PYTHONIOENCODING: utf-8
+  PYTHONUTF8: 1
+  FORCE_COLOR: 1
+
+jobs:
+  run-test:
+    runs-on: school
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+      - run: poetry install
+        shell: cmd
+      - name: adb output
+        run: adb devices
+      - name: Begin Testing
+        shell: cmd
+        run: ./unittest/ci.bat
+        id: test
+        env:
+          ZULIP_RESULT_BOT_KEY: ${{ secrets.ZULIP_RESULT_BOT_KEY }}
+          OHMYGPT_MANAGEMENT_KEY: ${{ secrets.OHMYGPT_MANAGEMENT_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_BASE: ${{ vars.OPENAI_API_BASE }}
+      # - uses: actions/upload-artifact@v3
+      #   if: ${{ !cancelled() }}
+      #   with:
+      #     name: Detailed report in JSON
+      #     path: results
+      # - uses: actions/upload-artifact@v3
+      #   if: ${{ !cancelled() }}
+      #   with:
+      #     name: Detailed report in Markdown
+      #     path: detail_step_log
+      # - uses: actions/upload-artifact@v3
+      #   if: ${{ !cancelled() }}
+      #   with:
+      #     name: Persistent knowledge in JSON
+      #     path:  ~/persist_knowledge

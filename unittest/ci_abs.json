@@ -1,0 +1,23 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "net.p4p.arms.main.workouts.details.WorkoutDetailsActivity"
+            },
+            {
+                "activity_name": "net.p4p.arms.main.exercises.details.ExerciseDetailsActivity"
+            },
+            {
+                "activity_name": "net.p4p.arms.main.plan.settings.PlanSettingsActivity"
+            },
+            {
+                "activity_name": "net.p4p.arms.main.settings.edit.SettingsEditActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/Abs.apk",
+    "package_name": "net.p4p.absen",
+    "known_activities": {},
+    "device_type": "android"
+}

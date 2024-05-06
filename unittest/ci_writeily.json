@@ -1,0 +1,35 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "me.writeily.NoteActivity"
+            },
+            {
+                "activity_name": "me.writeily.PreviewActivity"
+            },
+            {
+                "activity_name": "me.writeily.settings.SettingsActivity"
+            },
+            {
+                "activity_name": "me.writeily.PinActivity"
+            },
+            {
+                "activity_name": "me.writeily.AlphanumericPinActivity"
+            },
+            {
+                "activity_name": "me.writeily.PromptPinActivity"
+            },
+            {
+                "activity_name": "me.writeily.widget.WidgetConfigure"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/note3.apk",
+    "package_name": "me.writeily",
+    "known_activities": {},
+    "device_type": "android",
+    "capabilities_mixin": {
+        "appWaitForLaunch": true
+    }
+}

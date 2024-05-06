@@ -1,0 +1,3 @@
+| Result | Target | Time | Steps | Package | Device | LLM-error |
+| --- | --- | --- | --- | --- | --- | --- |{% for column in columns %}
+| {{ column["result"] }} | {{ column["target"] }} | {{ column["time"] }} | {{ column["steps"] }} | {{ column["package_name"] }} | {{ column["device"] }} | {{ column["llm_error"] }} |{% endfor %}

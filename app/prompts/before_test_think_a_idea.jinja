@@ -1,0 +1,9 @@
+Currently, we are exploring the moblie app {{ package_name }}.
+Our target is to achieve activity {{ goal_activity_name }}, which may be an activity for {{ goal_description }}.
+
+In your opinion, how can you achieve this goal? Please give your analysis and suggestions.
+{%if paths%}Please be aware that the following paths have been proven to be wrong, and you must give out a different path that you think is:
+```{% for path in paths %}
+{{ path }}
+{% endfor %}```
+{%endif%}You MUST give only your idea without extra words in less than 40 words.

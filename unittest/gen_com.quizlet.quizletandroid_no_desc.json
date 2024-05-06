@@ -1,0 +1,120 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.achievements.AchievementsActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.classcreation.ClassCreationActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.courses.courses.CoursesActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.explanations.questiondetail.presentation.ui.activities.QuestionDetailActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.folder.addfolderset.AddSetToFolderActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.folder.FolderActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.joincontenttofolder.JoinContentToFolderActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.live.QuizletLiveDeepLinkInterstitialActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.setcreation.activities.EditSetDetailsActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.setcreation.activities.EditSetLanguageSelectionActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.setcreation.activities.EditSetPermissionSelectionActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.studymodes.flashcards.activity.FlashcardsActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.studymodes.match.settings.MatchSettingsActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.studypath.StudyPathActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.AccountSettingsActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.ChangeEmailActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.ChangePasswordActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.ChangeUsernameActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.NightThemePickerActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.ChangeProfileImageActivity"
+            },
+            {
+                "activity_name": "com.quizlet.quizletandroid.ui.usersettings.activities.CropImageActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/Quizlet_ AI-powered Flashcards_8.6_Apkpure.apk",
+    "package_name": "com.quizlet.quizletandroid",
+    "known_activities": {
+        "com.quizlet.quizletandroid.ui.deeplinkinterstitial.DeepLinkInterstitialActivity": {
+            "human_notice": "点击一条通知，不要"
+        },
+        "com.quizlet.quizletandroid.ui.achievements.AchievementsActivity": {},
+        "com.quizlet.quizletandroid.ui.classcreation.ClassCreationActivity": {
+            "human_notice": "主页底部create"
+        },
+        "com.quizlet.quizletandroid.ui.courses.courses.CoursesActivity": {},
+        "com.quizlet.quizletandroid.ui.explanations.questiondetail.presentation.ui.activities.QuestionDetailActivity": {
+            "human_notice": "solutions页面下面点开一个question, 需要滚动"
+        },
+        "com.quizlet.quizletandroid.ui.folder.addfolderset.AddSetToFolderActivity": {},
+        "com.quizlet.quizletandroid.ui.folder.FolderActivity": {
+            "human_notice": "需要先创建folder"
+        },
+        "com.quizlet.quizletandroid.ui.joincontenttofolder.JoinContentToFolderActivity": {},
+        "com.quizlet.quizletandroid.ui.live.QuizletLiveDeepLinkInterstitialActivity": {},
+        "com.quizlet.quizletandroid.ui.setcreation.activities.EditSetDetailsActivity": {},
+        "com.quizlet.quizletandroid.ui.setcreation.activities.EditSetLanguageSelectionActivity": {},
+        "com.quizlet.quizletandroid.ui.setcreation.activities.EditSetPermissionSelectionActivity": {},
+        "com.quizlet.quizletandroid.ui.studymodes.flashcards.activity.FlashcardsActivity": {},
+        "com.quizlet.quizletandroid.ui.studymodes.match.settings.MatchSettingsActivity": {},
+        "com.quizlet.quizletandroid.ui.studypath.StudyPathActivity": {},
+        "com.quizlet.quizletandroid.ui.usersettings.activities.AccountSettingsActivity": {
+            "human_notice": "settings页面本身"
+        },
+        "com.quizlet.quizletandroid.ui.usersettings.activities.ChangeEmailActivity": {
+            "human_notice": "在setting里，很简单"
+        },
+        "com.quizlet.quizletandroid.ui.usersettings.activities.ChangePasswordActivity": {
+            "human_notice": "在setting里，需要密码"
+        },
+        "com.quizlet.quizletandroid.ui.usersettings.activities.ChangeUsernameActivity": {
+            "human_notice": "在setting里，需要密码；更改用户名，只可一次"
+        },
+        "com.quizlet.quizletandroid.ui.usersettings.activities.NightThemePickerActivity": {
+            "human_notice": "在setting里，很简单"
+        },
+        "com.quizlet.quizletandroid.ui.usersettings.activities.ChangeProfileImageActivity": {
+            "human_notice": "单击头像"
+        },
+        "com.quizlet.quizletandroid.ui.usersettings.activities.CropImageActivity": {
+            "human_notice": "更改头像，裁剪头像"
+        }
+    },
+    "device_type": "android",
+    "capabilities_mixin": {}
+}

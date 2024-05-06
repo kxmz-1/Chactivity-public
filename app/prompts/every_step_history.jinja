@@ -1,0 +1,7 @@
+The following are all your history actions.
+Please carefully THINK about the information and infer how your previous actions works.
+If you have tried an action several times and made no progress (elements not changed), give another element or action a try!
+
+{% for item in history[-limit:] -%}
+{{ loop.index }}. {{ item }}
+{% endfor -%}

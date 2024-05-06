@@ -1,0 +1,45 @@
+[appium]
+server = "http://localhost:4723"
+
+[appium.capabilities]
+language = "en"
+locale = "US"
+noReset = true
+forceAppLaunch = true
+autoGrantPermissions = true
+uiautomator2ServerInstallTimeout = 30000
+adbExecTimeout = 40000                   # in milliseconds, see https://github.com/appium/appium-uiautomator2-driver#adb
+newCommandTimeout = 1000                 # yes this DO is in seconds
+
+
+[llm]
+temperature = 0.15
+model = "gpt-3.5-turbo-1106"
+
+
+[app]
+enable_profiler = true
+profiler_target_folder = "E:\\profiler"
+
+[app.log]
+print_omit_message = false
+omit_flags = [
+    "single_job_test_init",
+    "single_job_test_process",
+    "step_detail",
+    "global_weight_ban",
+    "llm_debug_multi_function_call",
+]
+
+[app.core]
+context_history_length = 20
+max_step = 30
+max_time = 1800.0                           # 30 minutes
+show_badgoal_prompt_at_least_after = 100
+abort_activity_test_on_llm_error_count = 10
+analyze_before_function_call = true
+
+[testing]
+username = "kxmz1test"
+password = "example_passW0rd"
+email = "kxmz1test@example.com"

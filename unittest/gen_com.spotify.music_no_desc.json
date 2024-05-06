@@ -1,0 +1,108 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "com.spotify.allboarding.allboardingimpl.AllboardingActivity"
+            },
+            {
+                "activity_name": "com.spotify.checkout.checkoutnative.web.PremiumSignupActivity"
+            },
+            {
+                "activity_name": "com.spotify.lyrics.fullscreenview.page.LyricsFullscreenPageActivity"
+            },
+            {
+                "activity_name": "com.spotify.tome.pageactivity.PageActivity"
+            },
+            {
+                "activity_name": "com.spotify.trackcredits.trackcredits.TrackCreditsActivity"
+            },
+            {
+                "activity_name": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity"
+            },
+            {
+                "activity_name": "com.spotify.ratings.ratingsandreviewspage.ui.RatingsActivity"
+            },
+            {
+                "activity_name": "com.spotify.reporting.reportaction.ReportWebViewActivity"
+            },
+            {
+                "activity_name": "com.spotify.scannables.scannables.ScannablesActivity"
+            },
+            {
+                "activity_name": "com.spotify.storage.localstorage.MoveCacheConfirmationActivity"
+            },
+            {
+                "activity_name": "com.spotify.superbird.setup.SuperbirdSetupActivity"
+            },
+            {
+                "activity_name": "com.spotify.settings.settings.deletecache.StorageDeleteCacheActivity"
+            },
+            {
+                "activity_name": "com.spotify.settings.settings.removedownloads.StorageRemoveDownloadsActivity"
+            },
+            {
+                "activity_name": "com.spotify.settings.settings.soundeffects.SoundEffectsWarningActivity"
+            },
+            {
+                "activity_name": "com.spotify.connect.devicepickerimpl.DevicePickerActivity"
+            },
+            {
+                "activity_name": "com.spotify.appauthorization.sso.AuthorizationActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/Spotify_8.8.88.397_apkcombo.com.apk",
+    "package_name": "com.spotify.music",
+    "known_activities": {
+        "com.spotify.allboarding.allboardingimpl.AllboardingActivity": {
+            "human_notice": "选择喜爱的播客/作者，在library-add xxx"
+        },
+        "com.spotify.gpb.choicescreenpage.ChoiceScreenActivity": {
+            "human_notice": "主页面右下角“Premium”->Get 3 months free"
+        },
+        "com.spotify.checkout.checkoutnative.web.PremiumSignupActivity": {
+            "human_notice": "主页面右下角“Premium”->Get 3 months free->自动跳转"
+        },
+        "com.spotify.lyrics.fullscreenview.page.LyricsFullscreenPageActivity": {
+            "human_notice": "playing"
+        },
+        "com.spotify.tome.pageactivity.PageActivity": {
+            "human_notice": "playing"
+        },
+        "com.spotify.trackcredits.trackcredits.TrackCreditsActivity": {
+            "human_notice": "playing -> more"
+        },
+        "com.spotify.nowplaying.musicinstallation.NowPlayingActivity": {
+            "human_notice": "很水，直接点开正在播放"
+        },
+        "com.spotify.ratings.ratingsandreviewspage.ui.RatingsActivity": {},
+        "com.spotify.reporting.reportaction.ReportWebViewActivity": {},
+        "com.spotify.scannables.scannables.ScannablesActivity": {
+            "human_notice": "search右上角"
+        },
+        "com.spotify.storage.localstorage.MoveCacheConfirmationActivity": {
+            "human_notice": "右上角头像->设置->往下翻很多->Storage"
+        },
+        "com.spotify.superbird.setup.SuperbirdSetupActivity": {
+            "human_notice": "settings"
+        },
+        "com.spotify.settings.settings.deletecache.StorageDeleteCacheActivity": {
+            "human_notice": "settings"
+        },
+        "com.spotify.settings.settings.removedownloads.StorageRemoveDownloadsActivity": {
+            "human_notice": "settings"
+        },
+        "com.spotify.settings.settings.soundeffects.SoundEffectsWarningActivity": {
+            "human_notice": "settings"
+        },
+        "com.spotify.connect.devicepickerimpl.DevicePickerActivity": {
+            "human_notice": "settings或playing均有"
+        },
+        "com.spotify.appauthorization.sso.AuthorizationActivity": {
+            "human_notice": "settings"
+        }
+    },
+    "device_type": "android",
+    "capabilities_mixin": {}
+}

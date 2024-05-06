@@ -1,0 +1,18 @@
+Currently, we are at the activity: `{{ current_activity }}`
+
+The current state of onscreen texts is as follows:
+```
+{{ state }}
+```
+{% if last_status_description and last_activity %}You achieved this Activity from the previous Activity {{ last_activity }} which is described as follows:
+```
+{{ last_status_description }}
+```{% endif %}
+{% if this_status_description %}You have achieved this Activity before, and your last description is as following. 
+```
+{{ this_status_description }}
+```{% endif %}
+Now, please do the following:
+1. Analyze all the texts{% if this_status_description %} and your last description{% endif %}.
+2. Describe current screen UI state based on given onscreen UI texts in brief in exactly 50 words.
+Begin your reply with `{{ prefix }}` and then describe the current state of onscreen texts as the rules above.

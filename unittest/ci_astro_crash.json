@@ -1,0 +1,35 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "com.metago.astro.gui.activities.FeedbackActivity"
+            },
+            {
+                "activity_name": "com.metago.astro.gui.HelpViewer"
+            },
+            {
+                "activity_name": "com.metago.astro.gui.activities.FAQWebViewActivity"
+            },
+            {
+                "activity_name": "com.metago.astro.preference.PreferencesActivity"
+            },
+            {
+                "activity_name": "com.metago.astro.tools.app_manager.AppManagerPreferences"
+            },
+            {
+                "activity_name": "com.metago.astro.gui.DialogActivity"
+            },
+            {
+                "activity_name": "com.metago.astro.FileChooserActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/astro.apk",
+    "package_name": "com.metago.astro",
+    "known_activities": {},
+    "device_type": "android",
+    "capabilities_mixin": {
+        "appWaitForLaunch": false
+    }
+}

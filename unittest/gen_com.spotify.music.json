@@ -1,0 +1,127 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "com.spotify.allboarding.allboardingimpl.AllboardingActivity"
+            },
+            {
+                "activity_name": "com.spotify.checkout.checkoutnative.web.PremiumSignupActivity"
+            },
+            {
+                "activity_name": "com.spotify.lyrics.fullscreenview.page.LyricsFullscreenPageActivity"
+            },
+            {
+                "activity_name": "com.spotify.tome.pageactivity.PageActivity"
+            },
+            {
+                "activity_name": "com.spotify.trackcredits.trackcredits.TrackCreditsActivity"
+            },
+            {
+                "activity_name": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity"
+            },
+            {
+                "activity_name": "com.spotify.ratings.ratingsandreviewspage.ui.RatingsActivity"
+            },
+            {
+                "activity_name": "com.spotify.reporting.reportaction.ReportWebViewActivity"
+            },
+            {
+                "activity_name": "com.spotify.scannables.scannables.ScannablesActivity"
+            },
+            {
+                "activity_name": "com.spotify.storage.localstorage.MoveCacheConfirmationActivity"
+            },
+            {
+                "activity_name": "com.spotify.superbird.setup.SuperbirdSetupActivity"
+            },
+            {
+                "activity_name": "com.spotify.settings.settings.deletecache.StorageDeleteCacheActivity"
+            },
+            {
+                "activity_name": "com.spotify.settings.settings.removedownloads.StorageRemoveDownloadsActivity"
+            },
+            {
+                "activity_name": "com.spotify.settings.settings.soundeffects.SoundEffectsWarningActivity"
+            },
+            {
+                "activity_name": "com.spotify.connect.devicepickerimpl.DevicePickerActivity"
+            },
+            {
+                "activity_name": "com.spotify.appauthorization.sso.AuthorizationActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/Spotify_8.8.88.397_apkcombo.com.apk",
+    "package_name": "com.spotify.music",
+    "known_activities": {
+        "com.spotify.allboarding.allboardingimpl.AllboardingActivity": {
+            "human_notice": "选择喜爱的播客/作者，在library-add xxx",
+            "description": "for adding new artists, podcasts and shows to library"
+        },
+        "com.spotify.gpb.choicescreenpage.ChoiceScreenActivity": {
+            "human_notice": "主页面右下角“Premium”->Get 3 months free",
+            "description": "for purchasing Spotify Premium"
+        },
+        "com.spotify.checkout.checkoutnative.web.PremiumSignupActivity": {
+            "human_notice": "主页面右下角“Premium”->Get 3 months free->自动跳转",
+            "description": "for purchasing Spotify Premium"
+        },
+        "com.spotify.lyrics.fullscreenview.page.LyricsFullscreenPageActivity": {
+            "human_notice": "playing",
+            "description": "for displaying full lyrics in fullscreen"
+        },
+        "com.spotify.tome.pageactivity.PageActivity": {
+            "human_notice": "playing",
+            "description": "for adding current playing sound to playlist"
+        },
+        "com.spotify.trackcredits.trackcredits.TrackCreditsActivity": {
+            "human_notice": "playing -> more",
+            "description": "for showing credits of a music"
+        },
+        "com.spotify.nowplaying.musicinstallation.NowPlayingActivity": {
+            "human_notice": "很水，直接点开正在播放",
+            "description": "for showing details of current playing music or episode"
+        },
+        "com.spotify.ratings.ratingsandreviewspage.ui.RatingsActivity": {
+            "description": "for rating a podcast"
+        },
+        "com.spotify.reporting.reportaction.ReportWebViewActivity": {
+            "description": "for reporting an artist"
+        },
+        "com.spotify.scannables.scannables.ScannablesActivity": {
+            "human_notice": "search右上角",
+            "description": "for scanning Spotify Code using camera"
+        },
+        "com.spotify.storage.localstorage.MoveCacheConfirmationActivity": {
+            "human_notice": "右上角头像->设置->往下翻很多->Storage",
+            "description": "for changing cache location"
+        },
+        "com.spotify.superbird.setup.SuperbirdSetupActivity": {
+            "human_notice": "settings",
+            "description": "for setting up car things"
+        },
+        "com.spotify.settings.settings.deletecache.StorageDeleteCacheActivity": {
+            "human_notice": "settings",
+            "description": "for clearing cache"
+        },
+        "com.spotify.settings.settings.removedownloads.StorageRemoveDownloadsActivity": {
+            "human_notice": "settings",
+            "description": "for removing download files"
+        },
+        "com.spotify.settings.settings.soundeffects.SoundEffectsWarningActivity": {
+            "human_notice": "settings",
+            "description": "for showing warnings about sound effects"
+        },
+        "com.spotify.connect.devicepickerimpl.DevicePickerActivity": {
+            "human_notice": "settings或playing均有",
+            "description": "for connecting to other devices"
+        },
+        "com.spotify.appauthorization.sso.AuthorizationActivity": {
+            "human_notice": "settings",
+            "description": "for connecting with third-party applications"
+        }
+    },
+    "device_type": "android",
+    "capabilities_mixin": {}
+}

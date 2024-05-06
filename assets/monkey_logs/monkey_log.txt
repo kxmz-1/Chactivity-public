@@ -1,0 +1,66 @@
+generic_x86_64:/ $ monkey -v -v -v 10
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: 10
+args: [-v, -v, -v, 10]
+ arg: "-v"
+ arg: "-v"
+ arg: "-v"
+ arg: "10"
+:Monkey: seed=1693408522241 count=10
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   + Using main activity com.android.camera.CameraLauncher (from package com.android.camera2)
+//   + Using main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   + Using main activity com.android.deskclock.DeskClock (from package com.android.deskclock)
+//   + Using main activity com.android.dialer.main.impl.MainActivity (from package com.android.dialer)
+//   + Using main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   + Using main activity com.android.messaging.ui.conversationlist.ConversationListActivity (from package com.android.messaging)
+//   + Using main activity com.android.settings.Settings (from package com.android.settings)
+//   + Using main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   + Using main activity com.android.quicksearchbox.SearchActivity (from package com.android.quicksearchbox)
+//   + Using main activity org.chromium.webview_shell.WebViewBrowserActivity (from package org.chromium.webview_shell)
+//   + Using main activity io.appium.settings.Settings (from package io.appium.settings)
+//   + Using main activity net.p4p.arms.SplashActivity (from package net.p4p.absen)
+// Selecting main activities from category android.intent.category.MONKEY
+//   + Using main activity com.android.launcher3.uioverrides.QuickstepLauncher (from package com.android.launcher3)
+//   + Using main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   + Using main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+// Seeded: 1693408522241
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.dialer/.main.impl.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.dialer/.main.impl.MainActivity } in package com.android.dialer
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(379.0,247.0)
+:Sending Touch (ACTION_UP): 0:(378.6361,234.93346)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 171    // KEYCODE_WINDOW
+:Sending Key (ACTION_UP): 171    // KEYCODE_WINDOW
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(11.0,22.0)
+:Sending Touch (ACTION_UP): 0:(8.004087,22.741615)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 242    // KEYCODE_TV_ANTENNA_CABLE
+:Sending Key (ACTION_UP): 242    // KEYCODE_TV_ANTENNA_CABLE
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+Events injected: 10
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=589ms (0ms mobile, 0ms wifi, 589ms not connected)
+// Monkey finished

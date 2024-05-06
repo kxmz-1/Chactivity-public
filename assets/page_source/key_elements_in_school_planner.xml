@@ -1,0 +1,818 @@
+<android.view.ViewGroup index="0" package="daldev.android.gradehelper" class="android.view.ViewGroup"
+text="" resource-id="daldev.android.gradehelper:id/fab_container" checkable="false" checked="false"
+clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true" child_key_count="1"
+child_texts="[&quot;resource_id: fab_container&quot;]">
+                      <android.widget.ImageButton index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageButton" text="" checkable="false" checked="false" clickable="true"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[892,1668][1039,1815]" displayed="true" child_key_count="0" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.
+ImageButton" child_texts="[&quot;resource_id: fab_container&quot;]"/>
+                      <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[934,1710][997,1773]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: fab_container&quot;]"/>
+                    </android.view.ViewGroup>
+
+<android.widget.ImageButton index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageButton" text="" checkable="false" checked="false" clickable="true"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[892,1668][1039,1815]" displayed="true" child_key_count="0" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.
+ImageButton" child_texts="[&quot;resource_id: fab_container&quot;]"/>
+
+<android.view.ViewGroup index="0" package="daldev.android.gradehelper" class="android.view.ViewGroup"
+text="" resource-id="daldev.android.gradehelper:id/fab_container" checkable="false" checked="false"
+clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true" child_key_count="1"
+child_texts="[&quot;resource_id: fab_container&quot;]">
+                      <android.widget.ImageButton index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageButton" text="" checkable="false" checked="false" clickable="true"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[892,1668][1039,1815]" displayed="true" child_key_count="0" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.
+
+<android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[2]"
+child_texts="[&quot;Agenda&quot;]"/>
+                          <android.widget.Button index="2" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Calendar" resource-id="daldev.android.gradehelper:id/btCalendar"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[762,231][1080,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+
+<android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[2]"
+child_texts="[&quot;Agenda&quot;]"/>
+                          <android.widget.Button index="2" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Calendar" resource-id="daldev.android.gradehelper:id/btCalendar"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[762,231][1080,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+
+<android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[2]"
+child_texts="[&quot;Agenda&quot;]"/>
+                          <android.widget.Button index="2" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Calendar" resource-id="daldev.android.gradehelper:id/btCalendar"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[762,231][1080,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+
+<androidx.recyclerview.widget.RecyclerView index="0" package="daldev.android.gradehelper"
+class="androidx.recyclerview.widget.RecyclerView" text=""
+resource-id="daldev.android.gradehelper:id/recycler" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,1857]" displayed="true" child_key_count="4" depth="10"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView"
+child_texts="[&quot;resource_id: recycler&quot;, &quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no 
+upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;, &quot;Today&quot;, 
+&quot;Oct 22, 2023&quot;, &quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;,
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                      <android.widget.HorizontalScrollView index="0" package="daldev.android.gradehelper"
+class="android.widget.HorizontalScrollView" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,399]" displayed="true" child_key_count="3" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView" child_texts="[]">
+                        <android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[2]"
+child_texts="[&quot;Agenda&quot;]"/>
+                          <android.widget.Button index="2" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Calendar" resource-id="daldev.android.gradehelper:id/btCalendar"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[762,231][1080,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[3]"
+child_texts="[&quot;Calendar&quot;]"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.HorizontalScrollView>
+                      <android.view.ViewGroup index="1" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,399][1080,824]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no upcoming events&quot;, 
+&quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;]">
+                        <androidx.cardview.widget.CardView index="0" package="daldev.android.gradehelper"
+class="androidx.cardview.widget.CardView" text="" resource-id="daldev.android.gradehelper:id/card_view"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,399][1043,824]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no 
+upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;]">
+                          <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[37,399][1043,824]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly 
+report&quot;, &quot;You have no upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: 
+ivEmpty&quot;]">
+                            <android.widget.ImageView index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon_background"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,441][147,509]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;]"/>
+                            <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,441][147,509]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon&quot;]"/>
+                            <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Weekly report"
+resource-id="daldev.android.gradehelper:id/txt_header" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[184,449][1001,502]" displayed="true" child_key_count="0"
+child_texts="[&quot;Weekly report&quot;]"/>
+                            <android.widget.TextView index="3" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="You have no upcoming events"
+resource-id="daldev.android.gradehelper:id/tvTitle" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,604][707,662]" displayed="true" child_key_count="0"
+child_texts="[&quot;You have no upcoming events&quot;]"/>
+                            <android.widget.TextView index="4" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Enjoy your week"
+resource-id="daldev.android.gradehelper:id/textView2" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,683][707,729]" displayed="true" child_key_count="0"
+child_texts="[&quot;Enjoy your week&quot;]"/>
+                            <android.widget.ImageView index="5" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/ivEmpty"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[749,530][1043,824]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: ivEmpty&quot;]"/>
+                          </android.view.ViewGroup>
+                        </androidx.cardview.widget.CardView>
+                      </android.view.ViewGroup>
+                      <android.view.ViewGroup index="2" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,824][1080,1013]" displayed="true" child_key_count="0"
+child_texts="[&quot;Today&quot;, &quot;Oct 22, 2023&quot;]">
+                        <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,908][1080,987]" displayed="true" child_key_count="0"
+child_texts="[&quot;Today&quot;, &quot;Oct 22, 2023&quot;]">
+                          <android.widget.TextView index="0" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Today" resource-id="daldev.android.gradehelper:id/tvTitle"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,908][846,987]"
+displayed="true" child_key_count="0" child_texts="[&quot;Today&quot;]"/>
+                          <android.widget.TextView index="1" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Oct 22, 2023" resource-id="daldev.android.gradehelper:id/tvSubtitle"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[846,936][1038,978]"
+displayed="true" child_key_count="0" child_texts="[&quot;Oct 22, 2023&quot;]"/>
+                        </android.view.ViewGroup>
+                      </android.view.ViewGroup>
+                      <android.view.ViewGroup index="3" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,1013][1080,1857]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                        <androidx.cardview.widget.CardView index="0" package="daldev.android.gradehelper"
+class="androidx.cardview.widget.CardView" text="" resource-id="daldev.android.gradehelper:id/card_view"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1034][1043,1857]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id:
+ivEmpty&quot;, &quot;There are no events&quot;, &quot;You can add new events with the button in the bottom
+right corner&quot;]">
+                          <androidx.appcompat.widget.LinearLayoutCompat index="0"
+package="daldev.android.gradehelper" class="androidx.appcompat.widget.LinearLayoutCompat" text=""
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1034][1043,1857]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                            <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[37,1034][1043,1144]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Pending
+events&quot;]">
+                              <android.widget.ImageView index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon_background"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,1076][147,1144]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;]"/>
+                              <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,1076][147,1144]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon&quot;]"/>
+                              <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Pending events"
+resource-id="daldev.android.gradehelper:id/txt_header" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[184,1084][1001,1137]" displayed="true" child_key_count="0"
+child_texts="[&quot;Pending events&quot;]"/>
+                            </android.view.ViewGroup>
+                            <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/ivEmpty"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[121,1176][959,1596]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: ivEmpty&quot;]"/>
+                            <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="There are no events"
+resource-id="daldev.android.gradehelper:id/tvEmpty" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,1596][990,1707]" displayed="true" child_key_count="0"
+child_texts="[&quot;There are no events&quot;]"/>
+                            <android.widget.TextView index="3" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="You can add new events with the button in the bottom right corner"
+resource-id="daldev.android.gradehelper:id/tvEmptySubtitle" checkable="false" checked="false"
+clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,1728][990,1827]" displayed="true" child_key_count="0"
+child_texts="[&quot;You can add new events with the button in the bottom right corner&quot;]"/>
+                          </androidx.appcompat.widget.LinearLayoutCompat>
+                        </androidx.cardview.widget.CardView>
+                      </android.view.ViewGroup>
+                    </androidx.recyclerview.widget.RecyclerView>
+
+<android.widget.HorizontalScrollView index="0" package="daldev.android.gradehelper"
+class="android.widget.HorizontalScrollView" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,399]" displayed="true" child_key_count="3" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView" child_texts="[]">
+                        <android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+
+<android.view.ViewGroup index="0" package="daldev.android.gradehelper" class="android.view.ViewGroup"
+text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+focused="false" long-clickable="false" password="false" scrollable="false" selected="false"
+bounds="[0,0][1080,1857]" displayed="true" child_key_count="5" child_texts="[]">
+                    <androidx.recyclerview.widget.RecyclerView index="0"
+package="daldev.android.gradehelper" class="androidx.recyclerview.widget.RecyclerView" text=""
+resource-id="daldev.android.gradehelper:id/recycler" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,1857]" displayed="true" child_key_count="4" depth="10"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView"
+child_texts="[&quot;resource_id: recycler&quot;, &quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no 
+upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;, &quot;Today&quot;, 
+&quot;Oct 22, 2023&quot;, &quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;,
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                      <android.widget.HorizontalScrollView index="0" package="daldev.android.gradehelper"
+class="android.widget.HorizontalScrollView" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,399]" displayed="true" child_key_count="3" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView" child_texts="[]">
+                        <android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[2]"
+child_texts="[&quot;Agenda&quot;]"/>
+                          <android.widget.Button index="2" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Calendar" resource-id="daldev.android.gradehelper:id/btCalendar"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[762,231][1080,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[3]"
+child_texts="[&quot;Calendar&quot;]"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.HorizontalScrollView>
+                      <android.view.ViewGroup index="1" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,399][1080,824]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no upcoming events&quot;, 
+&quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;]">
+                        <androidx.cardview.widget.CardView index="0" package="daldev.android.gradehelper"
+class="androidx.cardview.widget.CardView" text="" resource-id="daldev.android.gradehelper:id/card_view"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,399][1043,824]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no 
+upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;]">
+                          <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[37,399][1043,824]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly 
+report&quot;, &quot;You have no upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: 
+ivEmpty&quot;]">
+                            <android.widget.ImageView index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon_background"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,441][147,509]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;]"/>
+                            <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,441][147,509]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon&quot;]"/>
+                            <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Weekly report"
+resource-id="daldev.android.gradehelper:id/txt_header" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[184,449][1001,502]" displayed="true" child_key_count="0"
+child_texts="[&quot;Weekly report&quot;]"/>
+                            <android.widget.TextView index="3" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="You have no upcoming events"
+resource-id="daldev.android.gradehelper:id/tvTitle" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,604][707,662]" displayed="true" child_key_count="0"
+child_texts="[&quot;You have no upcoming events&quot;]"/>
+                            <android.widget.TextView index="4" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Enjoy your week"
+resource-id="daldev.android.gradehelper:id/textView2" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,683][707,729]" displayed="true" child_key_count="0"
+child_texts="[&quot;Enjoy your week&quot;]"/>
+                            <android.widget.ImageView index="5" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/ivEmpty"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[749,530][1043,824]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: ivEmpty&quot;]"/>
+                          </android.view.ViewGroup>
+                        </androidx.cardview.widget.CardView>
+                      </android.view.ViewGroup>
+                      <android.view.ViewGroup index="2" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,824][1080,1013]" displayed="true" child_key_count="0"
+child_texts="[&quot;Today&quot;, &quot;Oct 22, 2023&quot;]">
+                        <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,908][1080,987]" displayed="true" child_key_count="0"
+child_texts="[&quot;Today&quot;, &quot;Oct 22, 2023&quot;]">
+                          <android.widget.TextView index="0" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Today" resource-id="daldev.android.gradehelper:id/tvTitle"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,908][846,987]"
+displayed="true" child_key_count="0" child_texts="[&quot;Today&quot;]"/>
+                          <android.widget.TextView index="1" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Oct 22, 2023" resource-id="daldev.android.gradehelper:id/tvSubtitle"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[846,936][1038,978]"
+displayed="true" child_key_count="0" child_texts="[&quot;Oct 22, 2023&quot;]"/>
+                        </android.view.ViewGroup>
+                      </android.view.ViewGroup>
+                      <android.view.ViewGroup index="3" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,1013][1080,1857]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                        <androidx.cardview.widget.CardView index="0" package="daldev.android.gradehelper"
+class="androidx.cardview.widget.CardView" text="" resource-id="daldev.android.gradehelper:id/card_view"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1034][1043,1857]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id:
+ivEmpty&quot;, &quot;There are no events&quot;, &quot;You can add new events with the button in the bottom
+right corner&quot;]">
+                          <androidx.appcompat.widget.LinearLayoutCompat index="0"
+package="daldev.android.gradehelper" class="androidx.appcompat.widget.LinearLayoutCompat" text=""
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1034][1043,1857]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                            <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[37,1034][1043,1144]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Pending
+events&quot;]">
+                              <android.widget.ImageView index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon_background"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,1076][147,1144]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;]"/>
+                              <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,1076][147,1144]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon&quot;]"/>
+                              <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Pending events"
+resource-id="daldev.android.gradehelper:id/txt_header" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[184,1084][1001,1137]" displayed="true" child_key_count="0"
+child_texts="[&quot;Pending events&quot;]"/>
+                            </android.view.ViewGroup>
+                            <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/ivEmpty"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[121,1176][959,1596]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: ivEmpty&quot;]"/>
+                            <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="There are no events"
+resource-id="daldev.android.gradehelper:id/tvEmpty" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,1596][990,1707]" displayed="true" child_key_count="0"
+child_texts="[&quot;There are no events&quot;]"/>
+                            <android.widget.TextView index="3" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="You can add new events with the button in the bottom right corner"
+resource-id="daldev.android.gradehelper:id/tvEmptySubtitle" checkable="false" checked="false"
+clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,1728][990,1827]" displayed="true" child_key_count="0"
+child_texts="[&quot;You can add new events with the button in the bottom right corner&quot;]"/>
+                          </androidx.appcompat.widget.LinearLayoutCompat>
+                        </androidx.cardview.widget.CardView>
+                      </android.view.ViewGroup>
+                    </androidx.recyclerview.widget.RecyclerView>
+                  </android.view.ViewGroup>
+
+<androidx.recyclerview.widget.RecyclerView index="0" package="daldev.android.gradehelper"
+class="androidx.recyclerview.widget.RecyclerView" text=""
+resource-id="daldev.android.gradehelper:id/recycler" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,1857]" displayed="true" child_key_count="4" depth="10"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView"
+child_texts="[&quot;resource_id: recycler&quot;, &quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no 
+upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;, &quot;Today&quot;, 
+&quot;Oct 22, 2023&quot;, &quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;,
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                      <android.widget.HorizontalScrollView index="0" package="daldev.android.gradehelper"
+class="android.widget.HorizontalScrollView" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true"
+selected="false" bounds="[0,231][1080,399]" displayed="true" child_key_count="3" depth="11"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView" child_texts="[]">
+                        <android.widget.LinearLayout index="0" package="daldev.android.gradehelper"
+class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[42,231][1080,357]" displayed="true" child_key_count="3"
+child_texts="[]">
+                          <android.widget.Button index="0" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Timetable" resource-id="daldev.android.gradehelper:id/btTimetable"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,231][388,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[1]"
+child_texts="[&quot;Timetable&quot;]"/>
+                          <android.widget.Button index="1" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Agenda" resource-id="daldev.android.gradehelper:id/btAgenda"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[420,231][730,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[2]"
+child_texts="[&quot;Agenda&quot;]"/>
+                          <android.widget.Button index="2" package="daldev.android.gradehelper"
+class="android.widget.Button" text="Calendar" resource-id="daldev.android.gradehelper:id/btCalendar"
+checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[762,231][1080,357]"
+displayed="true" child_key_count="0" depth="13"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/and
+roid.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.Button[3]"
+child_texts="[&quot;Calendar&quot;]"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.HorizontalScrollView>
+                      <android.view.ViewGroup index="1" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,399][1080,824]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no upcoming events&quot;, 
+&quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;]">
+                        <androidx.cardview.widget.CardView index="0" package="daldev.android.gradehelper"
+class="androidx.cardview.widget.CardView" text="" resource-id="daldev.android.gradehelper:id/card_view"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,399][1043,824]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly report&quot;, &quot;You have no 
+upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: ivEmpty&quot;]">
+                          <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[37,399][1043,824]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Weekly 
+report&quot;, &quot;You have no upcoming events&quot;, &quot;Enjoy your week&quot;, &quot;resource_id: 
+ivEmpty&quot;]">
+                            <android.widget.ImageView index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon_background"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,441][147,509]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;]"/>
+                            <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,441][147,509]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon&quot;]"/>
+                            <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Weekly report"
+resource-id="daldev.android.gradehelper:id/txt_header" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[184,449][1001,502]" displayed="true" child_key_count="0"
+child_texts="[&quot;Weekly report&quot;]"/>
+                            <android.widget.TextView index="3" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="You have no upcoming events"
+resource-id="daldev.android.gradehelper:id/tvTitle" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,604][707,662]" displayed="true" child_key_count="0"
+child_texts="[&quot;You have no upcoming events&quot;]"/>
+                            <android.widget.TextView index="4" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Enjoy your week"
+resource-id="daldev.android.gradehelper:id/textView2" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[90,683][707,729]" displayed="true" child_key_count="0"
+child_texts="[&quot;Enjoy your week&quot;]"/>
+                            <android.widget.ImageView index="5" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/ivEmpty"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[749,530][1043,824]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: ivEmpty&quot;]"/>
+                          </android.view.ViewGroup>
+                        </androidx.cardview.widget.CardView>
+                      </android.view.ViewGroup>
+                      <android.view.ViewGroup index="2" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,824][1080,1013]" displayed="true" child_key_count="0"
+child_texts="[&quot;Today&quot;, &quot;Oct 22, 2023&quot;]">
+                        <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,908][1080,987]" displayed="true" child_key_count="0"
+child_texts="[&quot;Today&quot;, &quot;Oct 22, 2023&quot;]">
+                          <android.widget.TextView index="0" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Today" resource-id="daldev.android.gradehelper:id/tvTitle"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,908][846,987]"
+displayed="true" child_key_count="0" child_texts="[&quot;Today&quot;]"/>
+                          <android.widget.TextView index="1" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Oct 22, 2023" resource-id="daldev.android.gradehelper:id/tvSubtitle"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[846,936][1038,978]"
+displayed="true" child_key_count="0" child_texts="[&quot;Oct 22, 2023&quot;]"/>
+                        </android.view.ViewGroup>
+                      </android.view.ViewGroup>
+                      <android.view.ViewGroup index="3" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[0,1013][1080,1857]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                        <androidx.cardview.widget.CardView index="0" package="daldev.android.gradehelper"
+class="androidx.cardview.widget.CardView" text="" resource-id="daldev.android.gradehelper:id/card_view"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1034][1043,1857]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: card_view&quot;, &quot;resource_id: 
+iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id:
+ivEmpty&quot;, &quot;There are no events&quot;, &quot;You can add new events with the button in the bottom
+right corner&quot;]">
+                          <androidx.appcompat.widget.LinearLayoutCompat index="0"
+package="daldev.android.gradehelper" class="androidx.appcompat.widget.LinearLayoutCompat" text=""
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1034][1043,1857]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;, 
+&quot;resource_id: iv_icon&quot;, &quot;Pending events&quot;, &quot;resource_id: ivEmpty&quot;, 
+&quot;There are no events&quot;, &quot;You can add new events with the button in the bottom right 
+corner&quot;]">
+                            <android.view.ViewGroup index="0" package="daldev.android.gradehelper"
+class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true"
+focusable="false" focused="false" long-clickable="false" password="false" scrollable="false"
+selected="false" bounds="[37,1034][1043,1144]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: iv_icon_background&quot;, &quot;resource_id: iv_icon&quot;, &quot;Pending
+events&quot;]">
+                              <android.widget.ImageView index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon_background"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,1076][147,1144]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon_background&quot;]"/>
+                              <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/iv_icon"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,1076][147,1144]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: iv_icon&quot;]"/>
+                              <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Pending events"
+resource-id="daldev.android.gradehelper:id/txt_header" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[184,1084][1001,1137]" displayed="true" child_key_count="0"
+child_texts="[&quot;Pending events&quot;]"/>
+                            </android.view.ViewGroup>
+                            <android.widget.ImageView index="1" package="daldev.android.gradehelper"
+class="android.widget.ImageView" text="" resource-id="daldev.android.gradehelper:id/ivEmpty"
+checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false"
+long-clickable="false" password="false" scrollable="false" selected="false" bounds="[121,1176][959,1596]"
+displayed="true" child_key_count="0" child_texts="[&quot;resource_id: ivEmpty&quot;]"/>
+                            <android.widget.TextView index="2" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="There are no events"
+resource-id="daldev.android.gradehelper:id/tvEmpty" checkable="false" checked="false" clickable="false"
+
+<android.view.ViewGroup index="2" package="daldev.android.gradehelper" class="android.view.ViewGroup"
+text="" resource-id="daldev.android.gradehelper:id/toolbar" checkable="false" checked="false"
+clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[0,63][1080,231]" displayed="true" child_key_count="1"
+child_texts="[&quot;resource_id: toolbar&quot;, &quot;Overview&quot;]">
+                  <android.widget.ImageButton index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageButton" text="" content-desc="Open navigation drawer" checkable="false"
+checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false"
+password="false" scrollable="false" selected="false" bounds="[0,73][147,220]" displayed="true"
+child_key_count="0" depth="9"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.view.ViewGroup/android.widget.ImageButton" child_texts="[&quot;resource_id: toolbar&quot;,
+&quot;Overview&quot;, &quot;Open navigation drawer&quot;]"/>
+                  <android.widget.TextView index="1" package="daldev.android.gradehelper"
+class="android.widget.TextView" text="Overview" checkable="false" checked="false" clickable="false"
+enabled="true" focusable="false" focused="false" long-clickable="false" password="false"
+scrollable="false" selected="false" bounds="[189,114][419,180]" displayed="true" child_key_count="0"
+child_texts="[&quot;resource_id: toolbar&quot;, &quot;Overview&quot;, &quot;Overview&quot;]"/>
+                </android.view.ViewGroup>
+
+<android.widget.ImageButton index="0" package="daldev.android.gradehelper"
+class="android.widget.ImageButton" text="" content-desc="Open navigation drawer" checkable="false"
+checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false"
+password="false" scrollable="false" selected="false" bounds="[0,73][147,220]" displayed="true"
+child_key_count="0" depth="9"
+xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androi
+d.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.Vi
+ewGroup/android.view.ViewGroup/android.widget.ImageButton" child_texts="[&quot;resource_id: toolbar&quot;,
+&quot;Overview&quot;, &quot;Open navigation drawer&quot;]"/>
+
+"Open navigation drawer", "class: ImageButton", "child texts: ['resource_id: toolbar', 'Overview']"

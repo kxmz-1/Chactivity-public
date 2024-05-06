@@ -1,0 +1,34 @@
+# misc
+[aA]p[pk]s/
+test.py
+local-*.*
+log.txt
+log_*.txt
+draw_img.png
+window_dump.xml
+
+profiler/
+stale/
+detail_step_log/
+results/
+
+# Private config
+config.override.toml
+
+# ------------------------------
+# Default .gitignore begins here
+# ------------------------------
+
+# JetBrains IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+
+# venv
+/venv

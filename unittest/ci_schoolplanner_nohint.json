@@ -1,0 +1,38 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "daldev.android.gradehelper.SubjectActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.CommitActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.settings.TermSettingsActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.settings.PreferenceActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.timetable.TimetableManagerActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.utilities.gradehelper.GradingSystemChooserActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.settings.ThemeChooserActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.activity.HolidayManagerActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/School Planner_6.7.0_apkcombo.com.apk",
+    "package_name": "daldev.android.gradehelper",
+    "known_activities": {},
+    "device_type": "android",
+    "capabilities_mixin": {
+        "appWaitForLaunch": true
+    }
+}

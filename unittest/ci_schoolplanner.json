@@ -1,0 +1,63 @@
+{
+    "tasks": {
+        "type": "act2act",
+        "targets": [
+            {
+                "activity_name": "daldev.android.gradehelper.SubjectActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.CommitActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.settings.TermSettingsActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.settings.PreferenceActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.timetable.TimetableManagerActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.utilities.gradehelper.GradingSystemChooserActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.settings.ThemeChooserActivity"
+            },
+            {
+                "activity_name": "daldev.android.gradehelper.activity.HolidayManagerActivity"
+            }
+        ]
+    },
+    "apk": "*APK_DIR*/invalid/patched.school_planner.apk",
+    "package_name": "daldev.android.gradehelper",
+    "known_activities": {
+        "daldev.android.gradehelper.SubjectActivity": {
+            "description": "for showing the detail of a existing subject"
+        },
+        "daldev.android.gradehelper.CommitActivity": {
+            "description": "for submit a new timetable"
+        },
+        "daldev.android.gradehelper.settings.TermSettingsActivity": {
+            "description": "for editing a term"
+        },
+        "daldev.android.gradehelper.settings.PreferenceActivity": {
+            "description": "for editing preferences"
+        },
+        "daldev.android.gradehelper.timetable.TimetableManagerActivity": {
+            "description": "for managing timetables"
+        },
+        "daldev.android.gradehelper.utilities.gradehelper.GradingSystemChooserActivity": {
+            "description": "for changing grading system"
+        },
+        "daldev.android.gradehelper.settings.ThemeChooserActivity": {
+            "description": "for changing the theme of the app"
+        },
+        "daldev.android.gradehelper.activity.HolidayManagerActivity": {
+            "description": "for modifiying holidays"
+        }
+    },
+    "device_type": "android",
+    "capabilities_mixin": {
+        "appWaitForLaunch": true
+    }
+}
